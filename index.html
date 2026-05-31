@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Personal academic and professional portfolio with CV, publications, projects, and cover letter."
+    >
+    <title>Your Name | CV, Publications, Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">Your Name</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#cv">CV</a>
+          <a href="#cover-letter">Cover Letter</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Researcher · Builder · Collaborator</p>
+          <h1>Your Name</h1>
+          <p class="hero-copy">
+            A concise portfolio for your curriculum vitae, publications, project work,
+            and a reusable cover letter.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#cv">View CV</a>
+            <a class="button secondary" href="assets/cv.pdf">Download CV</a>
+          </div>
+        </div>
+        <aside class="profile-panel" aria-label="Profile highlights">
+          <div>
+            <span class="label">Current focus</span>
+            <strong>Research, product thinking, and applied technical work</strong>
+          </div>
+          <div>
+            <span class="label">Location</span>
+            <strong>City, State/Country</strong>
+          </div>
+          <div>
+            <span class="label">Open to</span>
+            <strong>Roles, collaborations, speaking, consulting</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section intro-section" aria-labelledby="about-heading">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-heading">A clear snapshot of your work</h2>
+        </div>
+        <div class="intro-grid">
+          <p>
+            Replace this paragraph with a short biography: your discipline, areas of
+            expertise, and the kinds of problems you like solving. Keep it direct and
+            specific enough that someone can quickly understand your professional arc.
+          </p>
+          <ul class="quick-list">
+            <li>Primary field or discipline</li>
+            <li>Research interests or technical specialties</li>
+            <li>Notable methods, tools, or domains</li>
+            <li>What you are looking for next</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="cv" aria-labelledby="cv-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Curriculum Vitae</p>
+          <h2 id="cv-heading">Experience, education, and selected skills</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2024 - Present</div>
+            <div>
+              <h3>Current Role or Program</h3>
+              <p class="meta">Organization · City, State</p>
+              <p>
+                Summarize your work, responsibilities, research, teaching, or leadership
+                in two compact sentences.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2021 - 2024</div>
+            <div>
+              <h3>Previous Role or Degree</h3>
+              <p class="meta">Organization · City, State</p>
+              <p>
+                Describe the main contribution, thesis topic, or measurable outcome.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Skills</div>
+            <div>
+              <h3>Core Competencies</h3>
+              <div class="tag-row">
+                <span>Research Design</span>
+                <span>Data Analysis</span>
+                <span>Writing</span>
+                <span>Project Leadership</span>
+                <span>Python</span>
+                <span>Communication</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="cover-letter" aria-labelledby="letter-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Cover Letter</p>
+          <h2 id="letter-heading">General statement of interest</h2>
+        </div>
+        <article class="letter">
+          <p>Dear Hiring Committee,</p>
+          <p>
+            I am excited to share my background in [your field], where my work combines
+            [strength one], [strength two], and [strength three]. Across my academic and
+            professional experiences, I have focused on turning complex questions into
+            rigorous, useful, and communicable outcomes.
+          </p>
+          <p>
+            My experience includes [brief evidence of impact], [relevant technical or
+            research capability], and [collaboration or leadership example]. I am
+            particularly drawn to opportunities where I can contribute thoughtful analysis,
+            careful execution, and strong written communication.
+          </p>
+          <p>
+            Thank you for your consideration. I would welcome the opportunity to discuss
+            how my experience could support your team.
+          </p>
+          <p>Sincerely,<br>Your Name</p>
+        </article>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publications-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2 id="publications-heading">Selected writing and research</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <p class="card-kicker">Journal Article · 2025</p>
+            <h3>Publication Title Goes Here</h3>
+            <p class="meta">Your Name, Coauthor Name · Journal or Venue</p>
+            <p>One-sentence description of the question, method, or contribution.</p>
+            <a href="#" aria-label="Read publication title">Read publication</a>
+          </article>
+          <article class="card">
+            <p class="card-kicker">Conference Paper · 2024</p>
+            <h3>Another Publication Title</h3>
+            <p class="meta">Your Name · Conference or Venue</p>
+            <p>Briefly summarize why this work matters and who it helps.</p>
+            <a href="#" aria-label="Read another publication title">Read publication</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-heading">Work worth showing</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="card project-card">
+            <div class="project-media">01</div>
+            <h3>Project Name</h3>
+            <p>
+              A short, outcome-oriented description of the project, your role, and the
+              tools or methods used.
+            </p>
+            <a href="#">View project</a>
+          </article>
+          <article class="card project-card">
+            <div class="project-media">02</div>
+            <h3>Research Tool or Dataset</h3>
+            <p>
+              Explain what it does, why it exists, and what someone can learn by opening it.
+            </p>
+            <a href="#">View project</a>
+          </article>
+          <article class="card project-card">
+            <div class="project-media">03</div>
+            <h3>Writing or Portfolio Piece</h3>
+            <p>
+              Use this card for a public essay, case study, dashboard, app, or prototype.
+            </p>
+            <a href="#">View project</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading">Let’s connect</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          <a href="https://www.linkedin.com/in/your-handle">LinkedIn</a>
+          <a href="https://github.com/your-handle">GitHub</a>
+          <a href="https://scholar.google.com/">Google Scholar</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Your Name. Built for GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
