@@ -1,54 +1,39 @@
-# Personal Website Template
+# Amogh Parab Personal Website
 
-This is a simple static website for a CV, general cover letter, publications, and project showcase. It is designed to work directly with GitHub Pages.
+This repository contains the source for my personal website:
 
-## Edit Your Content
-
-- Update `index.html` with your name, biography, CV entries, cover letter, publications, projects, and contact links.
-- Replace `assets/cv.pdf` with your real CV PDF. If you do not want a PDF download button yet, remove or edit the `Download CV` link in `index.html`.
-- Adjust colors and spacing in `styles.css`.
-
-## Preview Locally
-
-Open `index.html` directly in your browser, or run a tiny local server from this folder:
-
-```powershell
-python -m http.server 8000
+```text
+https://parabamoghv.github.io
 ```
 
-Then visit `http://localhost:8000`.
+The site is intentionally simple. It is meant to be a public home for my academic work, selected projects, CV, and contact links.
 
-## Publish With GitHub Pages
+## Current Contents
 
-1. Create a new repository on GitHub.
-   - For a personal site at `https://YOUR-USERNAME.github.io`, name it `YOUR-USERNAME.github.io`.
-   - For a project site, use any repo name such as `portfolio`.
+- About me
+- Curriculum vitae
+- PhD thesis bibliography and link
+- Selected projects
+- Contact information
 
-2. Connect this local repo to GitHub:
+## Featured Work
 
-```powershell
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
-git branch -M main
-git push -u origin main
-```
+- Thesis formalization in Lean4
+- Car sales price prediction project from the Erdos Institute Data Science Boot Camp
+- Lean4 formalization of uniqueness of path lifting for covering spaces
 
-3. Enable GitHub Pages:
-   - Open the GitHub repository in your browser.
-   - Go to `Settings` > `Pages`.
-   - Under `Build and deployment`, choose `Deploy from a branch`.
-   - Select branch `main` and folder `/root`.
-   - Click `Save`.
+## Future Plans
 
-4. Wait a minute or two. GitHub will show the public URL on the Pages settings screen.
+- **Checkmate in Lean**: a chess simulator in Lean with formalized rules, game-state validation, and theory proofs about legal play.
+- Add more mathematical and computational projects, including a geometry-focused project.
+- Add short blog posts about mathematics, formalization, teaching, data science, and things I am learning.
+- Expand project pages with notes, examples, and links to source code.
 
-## Common Follow-Ups
+## Development
 
-- If you use the special repo name `YOUR-USERNAME.github.io`, your site URL is usually `https://YOUR-USERNAME.github.io`.
-- If you use a normal project repo, your site URL is usually `https://YOUR-USERNAME.github.io/YOUR-REPO/`.
-- Every time you edit the site, publish updates with:
+This is a static site built with HTML, CSS, and a small amount of JavaScript. The main files are:
 
-```powershell
-git add .
-git commit -m "Update website content"
-git push
-```
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/Amogh_Parab_CV.pdf`
